@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1030B4FA8219A6E6235DA830 /* libPods-ATFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B62BEC725223D298B135F0 /* libPods-ATFirebase.a */; };
+		6F092F651D92A32E008CB1FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F092F641D92A32E008CB1FA /* main.m */; };
+		6F092F681D92A32E008CB1FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F092F671D92A32E008CB1FA /* AppDelegate.m */; };
+		6F092F6B1D92A32E008CB1FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F092F6A1D92A32E008CB1FA /* ViewController.m */; };
+		6F092F6E1D92A32E008CB1FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F092F6C1D92A32E008CB1FA /* Main.storyboard */; };
+		6F092F701D92A32E008CB1FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F092F6F1D92A32E008CB1FA /* Assets.xcassets */; };
+		6F092F731D92A32E008CB1FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F092F711D92A32E008CB1FA /* LaunchScreen.storyboard */; };
+		6F092F7B1D92A39F008CB1FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F092F7A1D92A39F008CB1FA /* GoogleService-Info.plist */; };
+		6F092F7E1D92A583008CB1FA /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F092F7D1D92A583008CB1FA /* SignUpViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B62BEC725223D298B135F0 /* libPods-ATFirebase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATFirebase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F092F601D92A32D008CB1FA /* ATFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F092F641D92A32E008CB1FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F092F661D92A32E008CB1FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F092F671D92A32E008CB1FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F092F691D92A32E008CB1FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F092F6A1D92A32E008CB1FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F092F6D1D92A32E008CB1FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F092F6F1D92A32E008CB1FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F092F721D92A32E008CB1FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F092F741D92A32E008CB1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F092F7A1D92A39F008CB1FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F092F7C1D92A583008CB1FA /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		6F092F7D1D92A583008CB1FA /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		BC1C5B764B67926508A27777 /* Pods-ATFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATFirebase/Pods-ATFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		C16EF7A8595D6F7B23B8AB8F /* Pods-ATFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATFirebase/Pods-ATFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F092F5D1D92A32D008CB1FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1030B4FA8219A6E6235DA830 /* libPods-ATFirebase.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		325AAE313BE2A03A10BF2FDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B62BEC725223D298B135F0 /* libPods-ATFirebase.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F092F571D92A32D008CB1FA = {
+			isa = PBXGroup;
+			children = (
+				6F092F621D92A32D008CB1FA /* ATFirebase */,
+				6F092F611D92A32D008CB1FA /* Products */,
+				CF92930D5A13ECC6C28524A7 /* Pods */,
+				325AAE313BE2A03A10BF2FDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F092F611D92A32D008CB1FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F092F601D92A32D008CB1FA /* ATFirebase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F092F621D92A32D008CB1FA /* ATFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				6F092F7A1D92A39F008CB1FA /* GoogleService-Info.plist */,
+				6F092F661D92A32E008CB1FA /* AppDelegate.h */,
+				6F092F671D92A32E008CB1FA /* AppDelegate.m */,
+				6F092F691D92A32E008CB1FA /* ViewController.h */,
+				6F092F6A1D92A32E008CB1FA /* ViewController.m */,
+				6F092F6C1D92A32E008CB1FA /* Main.storyboard */,
+				6F092F7C1D92A583008CB1FA /* SignUpViewController.h */,
+				6F092F7D1D92A583008CB1FA /* SignUpViewController.m */,
+				6F092F6F1D92A32E008CB1FA /* Assets.xcassets */,
+				6F092F711D92A32E008CB1FA /* LaunchScreen.storyboard */,
+				6F092F741D92A32E008CB1FA /* Info.plist */,
+				6F092F631D92A32E008CB1FA /* Supporting Files */,
+			);
+			path = ATFirebase;
+			sourceTree = "<group>";
+		};
+		6F092F631D92A32E008CB1FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F092F641D92A32E008CB1FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF92930D5A13ECC6C28524A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C16EF7A8595D6F7B23B8AB8F /* Pods-ATFirebase.debug.xcconfig */,
+				BC1C5B764B67926508A27777 /* Pods-ATFirebase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F092F5F1D92A32D008CB1FA /* ATFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F092F771D92A32E008CB1FA /* Build configuration list for PBXNativeTarget "ATFirebase" */;
+			buildPhases = (
+				3B58A5D24C8CBA91B85310F2 /* 📦 Check Pods Manifest.lock */,
+				6F092F5C1D92A32D008CB1FA /* Sources */,
+				6F092F5D1D92A32D008CB1FA /* Frameworks */,
+				6F092F5E1D92A32D008CB1FA /* Resources */,
+				BDBCB36BD9EA88E89BF490C0 /* 📦 Embed Pods Frameworks */,
+				BAB26FEAB90D5B7837EB0B09 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATFirebase;
+			productName = ATFirebase;
+			productReference = 6F092F601D92A32D008CB1FA /* ATFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F092F581D92A32D008CB1FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aashish Tamsya";
+				TargetAttributes = {
+					6F092F5F1D92A32D008CB1FA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6F092F5B1D92A32D008CB1FA /* Build configuration list for PBXProject "ATFirebase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F092F571D92A32D008CB1FA;
+			productRefGroup = 6F092F611D92A32D008CB1FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F092F5F1D92A32D008CB1FA /* ATFirebase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F092F5E1D92A32D008CB1FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F092F731D92A32E008CB1FA /* LaunchScreen.storyboard in Resources */,
+				6F092F701D92A32E008CB1FA /* Assets.xcassets in Resources */,
+				6F092F6E1D92A32E008CB1FA /* Main.storyboard in Resources */,
+				6F092F7B1D92A39F008CB1FA /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B58A5D24C8CBA91B85310F2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAB26FEAB90D5B7837EB0B09 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATFirebase/Pods-ATFirebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDBCB36BD9EA88E89BF490C0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATFirebase/Pods-ATFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F092F5C1D92A32D008CB1FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F092F6B1D92A32E008CB1FA /* ViewController.m in Sources */,
+				6F092F681D92A32E008CB1FA /* AppDelegate.m in Sources */,
+				6F092F7E1D92A583008CB1FA /* SignUpViewController.m in Sources */,
+				6F092F651D92A32E008CB1FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F092F6C1D92A32E008CB1FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F092F6D1D92A32E008CB1FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F092F711D92A32E008CB1FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F092F721D92A32E008CB1FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F092F751D92A32E008CB1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F092F761D92A32E008CB1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F092F781D92A32E008CB1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16EF7A8595D6F7B23B8AB8F /* Pods-ATFirebase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ATFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.felix.aashishtamsya.ATFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F092F791D92A32E008CB1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1C5B764B67926508A27777 /* Pods-ATFirebase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ATFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.felix.aashishtamsya.ATFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F092F5B1D92A32D008CB1FA /* Build configuration list for PBXProject "ATFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F092F751D92A32E008CB1FA /* Debug */,
+				6F092F761D92A32E008CB1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F092F771D92A32E008CB1FA /* Build configuration list for PBXNativeTarget "ATFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F092F781D92A32E008CB1FA /* Debug */,
+				6F092F791D92A32E008CB1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F092F581D92A32D008CB1FA /* Project object */;
+}
